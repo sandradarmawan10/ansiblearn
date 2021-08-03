@@ -1,6 +1,6 @@
 ---
 - name: Update repository Oracle Linux
-  host: myhost
+  hosts: myhost
   become: true
 
   tasks:
