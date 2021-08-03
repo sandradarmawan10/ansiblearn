@@ -1,0 +1,10 @@
+---
+  - name: Update repository Oracle Linux
+    host: myhost
+    become: true
+
+  task:
+    - name: upgrade all pakcages
+      yum:
+        name: '*'
+        state: latest
