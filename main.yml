@@ -22,4 +22,4 @@
     - name: start service mysqld
       service:
         name: mysqld.service
-        state: yes
+        state: started
