@@ -8,3 +8,8 @@
       yum:
         name: '*'
         state: latest
+    
+    - name: install mysql server
+      yum:
+        name: mysql-server
+        state: latest
