@@ -13,3 +13,13 @@
       yum:
         name: mysql-server
         state: latest
+
+    - name: enable service mysqld
+      service:
+        name: mysqld.service
+        enabled: yes
+    
+    - name: start service mysqld
+      service:
+        name: mysqld.service
+        state: yes
